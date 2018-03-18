@@ -1,7 +1,7 @@
 menu:
   Home: /
   Archives: /archives
-
+  About: /about
 sidebar: right
 
 widgets:
@@ -12,12 +12,15 @@ widgets:
 - tagcloud
 
 # Duoshuo
-duoshuo_shortname: 
+# duoshuo_shortname: 
+
+# disqus
+disqus: blog-lungern-site
 
 fancybox: true
 
-google_analytics:
-rss: 
-google_site_verification: 
-baidu_site_verification: 
-icon: 
+google_analytics: UA-111754848-1
+# rss: 
+# google_site_verification: 
+# baidu_site_verification: 
+# icon: 
