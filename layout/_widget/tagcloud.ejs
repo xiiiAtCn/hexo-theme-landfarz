@@ -1,8 +1,9 @@
 <% if (site.tags.length){ %>
-<div class="widget tagcloud">
+<div class="tagcloud">
   <h3 class="title"><%= __('tagcloud') %></h3>
   <div class="entry">
     <%- tagcloud(site.tags, {}) %>
   </div>
 </div>
+<script src="<%- config.root %>js/tag-cloud.js"></script>
 <% } %>
