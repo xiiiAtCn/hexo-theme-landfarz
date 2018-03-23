@@ -42,12 +42,12 @@ function animate(){
         })
     } , 17)
     
-    console.log('start animate ', animated)
+    // console.log('start animate ', animated)
 }
 
 function clearAnimate() {
     if(animated) {
-        console.log('clear animate ', animated)
+        // console.log('clear animate ', animated)
         clearInterval(animated)
         animated = undefined
     }
@@ -57,8 +57,8 @@ if("addEventListener" in window){
     paper.addEventListener("mouseover" , function(event){
         let target = event.target
         if(target.nodeName.toLowerCase() === 'a') {
-            console.log(target)
-            console.log('move over')
+            // console.log(target)
+            // console.log('move over')
             clearAnimate()
         } else {
             var x = event.clientX - EX - CX;
@@ -70,7 +70,7 @@ if("addEventListener" in window){
         }
     }, false);
     paper.addEventListener('mouseenter', function(event) {
-        console.log(event)
+        // console.log(event)
         clearAnimate()
     })
 }
