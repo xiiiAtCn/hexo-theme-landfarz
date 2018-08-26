@@ -8,8 +8,6 @@ if (page.archive){
 }
 %>
 <h2 class="archive-title<% if (page.tag){ %> tag<% } else if (page.category){ %> category<% } %>"><%= title %></h2>
-<div>123</div>
-<div><%= pagination %></div>
 <% if (pagination == 2){ %>
   <% page.posts.each(function(item){ %>
     <%- partial('article', {item: item, index: true}) %>
