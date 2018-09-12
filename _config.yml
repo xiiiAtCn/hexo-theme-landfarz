@@ -2,13 +2,14 @@ menu:
   Home: /
   Archives: /archives
   About: /about
+  Ignored: /ignored
 sidebar: right
 
 widgets:
 - search
 - category
 - recent_posts
-- tag
+# - tag
 - tagcloud
 
 # Duoshuo
